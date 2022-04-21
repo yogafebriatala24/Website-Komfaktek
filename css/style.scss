@@ -1,7 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
 .btn-success {
   color: white !important;
   background-color: #17cfb0;
@@ -22,6 +21,9 @@ body {
   color: #17cfb0 !important;
   font-weight: 700;
   font-size: 26px;
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
 
   span {
     color: black;
@@ -35,6 +37,11 @@ body {
     line-height: 63px;
     span {
       color: #17cfb0;
+    }
+    @media (max-width: 768px) {
+      font-size: 24px;
+      line-height: unset;
+      margin-top: -30px;
     }
   }
   p {
@@ -61,6 +68,202 @@ body {
 
       &:hover {
         background-color: rgb(239, 239, 239);
+      }
+    }
+  }
+}
+#kelas-online {
+  margin-top: -100px;
+  @media (max-width: 768px) {
+    margin-top: 0px;
+  }
+  h4 {
+    margin-left: 180px;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .gambar-kelas {
+    @media (min-width: 991.98px) {
+      margin-left: 180px;
+    }
+    @media (max-width: 768px) {
+      display: none;
+      font-size: 23px;
+      margin-left: 0px;
+    }
+
+    img {
+      width: 75%;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  }
+  .swiper {
+    margin-top: 22px;
+    @media (min-width: 991.98px) {
+      margin-left: -150px;
+    }
+
+    .card {
+      padding: 10px;
+      @media (min-width: 991.98px) {
+        margin-left: -10px;
+        border-radius: 15px;
+        height: 22rem;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+      }
+      @media (max-width: 767.98px) {
+        border-radius: 15px;
+        margin-left: 0px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+      }
+      img {
+        @media (min-width: 991.98px) {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+          object-position: center;
+          margin-bottom: 10px;
+          border-radius: 10px;
+        }
+      }
+      .card-body {
+        padding: 5px;
+        .card-text {
+          color: #bababa;
+        }
+
+        .star {
+          color: #ffc700;
+        }
+      }
+    }
+  }
+}
+
+#berita {
+  .container {
+    .tag {
+      margin-left: 20px;
+      h6 {
+        font-size: 16px;
+      }
+      p {
+        color: #9c9c9c;
+        width: 80%;
+        font-size: 12px;
+        font-weight: normal;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+#tentang {
+  margin-top: 100px;
+
+  .definition {
+    margin-top: 150px;
+  }
+}
+
+#footer {
+  footer {
+    text-align: center;
+    color: #9c9c9c;
+  }
+}
+
+// Login
+
+.card {
+  width: 500px;
+  margin-left: 200px;
+  border-radius: 20px;
+  .form-login {
+    margin-left: 25px;
+    width: 90%;
+    font-size: 18px;
+    input {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border-radius: 200px;
+      height: 50px;
+    }
+
+    .btn {
+      font-size: 18px;
+    }
+
+    .btn-regis {
+      background-color: #d5d5d5;
+      color: white;
+      margin-top: 10px;
+      border-radius: 200px;
+
+      &:hover {
+        background-color: #c2c2c2;
+      }
+    }
+  }
+}
+
+// Kelas
+#kelas {
+  background-color: #f6fffe;
+  .page-dashboard {
+    .sidebar-heading {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      a {
+        color: #000;
+        font-size: 22px;
+      }
+    }
+    #sidebar-wrapper {
+      background-color: #fff;
+      border-radius: 20px;
+      width: 400px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    #page-content-wrapper {
+    }
+    .list-group-item {
+      border: 1px solid;
+      border-radius: 200px;
+      margin-bottom: 15px;
+      font-size: 16px;
+      color: #17cfb0;
+      margin-left: 40px;
+      width: 250px;
+
+      svg {
+        &.active {
+          path {
+            fill: white;
+          }
+        }
+      }
+
+      &.active {
+        background-color: #17cfb0;
+        border-radius: 200px;
+        color: #fff;
+        svg {
+          path {
+            fill: white;
+          }
+        }
+
+        &:hover {
+          background-color: #17bda1;
+        }
       }
     }
   }
