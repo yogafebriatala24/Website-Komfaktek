@@ -181,33 +181,35 @@ body {
 
 // Login
 
-.card {
-  width: 500px;
-  margin-left: 200px;
-  border-radius: 20px;
-  .form-login {
-    margin-left: 25px;
-    width: 90%;
-    font-size: 18px;
-    input {
-      margin-top: 10px;
-      margin-bottom: 20px;
-      border-radius: 200px;
-      height: 50px;
-    }
-
-    .btn {
+#login {
+  .card {
+    width: 500px;
+    margin-left: 200px;
+    border-radius: 20px;
+    .form-login {
+      margin-left: 25px;
+      width: 90%;
       font-size: 18px;
-    }
+      input {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 200px;
+        height: 50px;
+      }
 
-    .btn-regis {
-      background-color: #d5d5d5;
-      color: white;
-      margin-top: 10px;
-      border-radius: 200px;
+      .btn {
+        font-size: 18px;
+      }
 
-      &:hover {
-        background-color: #c2c2c2;
+      .btn-regis {
+        background-color: #d5d5d5;
+        color: white;
+        margin-top: 10px;
+        border-radius: 200px;
+
+        &:hover {
+          background-color: #c2c2c2;
+        }
       }
     }
   }
@@ -215,24 +217,78 @@ body {
 
 // Kelas
 #kelas {
-  background-color: #f6fffe;
+  background-color: #e7fffc;
   .page-dashboard {
     .sidebar-heading {
       margin-top: 20px;
       margin-bottom: 20px;
+      margin-left: 14px;
       a {
         color: #000;
-        font-size: 22px;
+        font-size: 18px;
+        font-weight: 350;
+        span {
+          margin-left: 5px;
+        }
       }
     }
     #sidebar-wrapper {
       background-color: #fff;
       border-radius: 20px;
-      width: 400px;
-      margin-top: 10px;
+      width: 465px;
+      margin-top: 50px;
       margin-bottom: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+
+      .list-group-item {
+        padding: 12px 10px 10px 20px;
+        width: 320px !important;
+        height: 60px !important;
+        margin-left: 10px;
+      }
     }
     #page-content-wrapper {
+      margin-right: 20px;
+      width: 100%;
+      .container {
+        .youtube {
+          border-radius: 20px;
+          width: 100%;
+          .video {
+            iframe {
+              border-radius: 20px;
+            }
+          }
+        }
+        .judul-materi {
+          font-weight: 500;
+        }
+        .btn {
+          font-size: 18px;
+        }
+        .kebutuhan {
+          p {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 5px;
+          }
+          span {
+            font-size: 16px;
+          }
+
+          .card {
+            margin-top: 30px;
+            margin-left: 10px;
+            width: 19rem;
+            height: 12rem;
+
+            .card-body {
+              margin-top: 25px;
+            }
+          }
+        }
+      }
     }
     .list-group-item {
       border: 1px solid;
