@@ -1,18 +1,10 @@
+@import "pages/screening";
+@import "global";
+
 body {
   font-family: "Poppins", sans-serif;
 }
-.btn-success {
-  color: white !important;
-  background-color: #17cfb0;
-  border: 0px;
-  border-radius: 30px;
-  position: relative;
 
-  &:hover {
-    color: white !important;
-    background-color: #17bda1;
-  }
-}
 .navbar {
   font-weight: 400;
   font-size: 16;
