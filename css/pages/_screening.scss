@@ -1,0 +1,80 @@
+.screening {
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #dedede;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.card.card-materi {
+  background: #ffffff;
+  //   border: 1px solid #cecece;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+.card-materi img {
+  border-radius: 10px 0px 0px 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-materi .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-materi .title img {
+  width: 24px;
+}
+
+.card-materi p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #8b8b8b;
+}
+.card-materi .deskripsi {
+  margin-right: 10px;
+}
+
+.btn-mentor {
+  background: #4ecb71;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  display: block;
+}
+.btn-mentor-pending {
+  background: #ffc700;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  display: block;
+}
+
+.text-info-screening {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+
+  color: #3b3e3e;
+}
+
+.ilustrasi-hmi {
+  width: 200px;
+
+  margin: 0 auto;
+}
+
+.bg-shape {
+  margin-top: -500px;
+  min-height: 100px;
+}
